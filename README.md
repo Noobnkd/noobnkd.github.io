@@ -16,4 +16,6 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 - Integrate and operate a Block Storage system within the OpenStack environment.
 
 ## Infrastructure:
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/00066472-8923-471b-a3f7-031e4887b863" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/00066472-8923-471b-a3f7-031e4887b863" alt="System Architecture" width="400" height="300">
+</div>
