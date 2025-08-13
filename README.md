@@ -20,13 +20,13 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 
 ## Openstack components:
 In this Private Cloud deployment, the following OpenStack services are implemented:
-Keystone – Identity service that manages authentication and authorization across OpenStack.
-Glance – Image service used to store and retrieve VM disk images.
-Nova – Compute service responsible for creating and managing virtual machines.
-Placement – Tracks resource inventories and usage for efficient scheduling of VMs.
-Neutron – Networking service that provides connectivity between interface devices managed by other OpenStack services.
-Cinder – Block Storage service that provides persistent volumes for virtual machines (using LVM backend).
-Horizon – Web-based dashboard for managing and monitoring cloud resources.
-MariaDB – Relational database for storing service configurations and operational data.
-RabbitMQ – Message broker for communication between services.
-Apache2 – Web server that serves APIs and the Horizon dashboard.
++ Keystone - Identity service that manages authentication and authorization across OpenStack.
++ Glance - Image service used to store and retrieve VM disk images.
++ Nova - Compute service responsible for creating and managing virtual machines.
++ Placement - Tracks resource inventories and usage for efficient scheduling of VMs.
++ Neutron - Networking service that provides connectivity between interface devices managed by other OpenStack services.
++ Cinder - Block Storage service that provides persistent volumes for virtual machines (using LVM backend).
++ Horizon - Web-based dashboard for managing and monitoring cloud resources.
++ MariaDB - Relational database for storing service configurations and operational data.
++ RabbitMQ - Message broker for communication between services.
++ Apache2 - Web server that serves APIs and the Horizon dashboard.
