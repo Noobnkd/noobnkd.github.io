@@ -15,4 +15,5 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 - Create, delete, modify, and configure virtual networking.
 - Integrate and operate a Block Storage system within the OpenStack environment.
 
-<img width="1532" height="1075" alt="image" src="https://github.com/user-attachments/assets/311f4649-d181-4765-8053-b096b47014bd" />
+## Infrastructure:
+<img width="1580" height="1323" alt="image" src="https://github.com/user-attachments/assets/00066472-8923-471b-a3f7-031e4887b863" />
