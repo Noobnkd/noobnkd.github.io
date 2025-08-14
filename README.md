@@ -39,10 +39,12 @@ Main management node that controls and coordinates all OpenStack services.
 + RabbitMQ : Message broker for service communication.
 + Chrony : Time synchronization between nodes.
 + VMs : Can run virtual machines directly on the controller.
+
 ### Compute Node:
 Runs virtual machines and handles workloads.
 + Nova Compute : Launches and manages VMs.
 + Neutron Open vSwitch Agent : Connects VMs to the virtual network.
+
 ### Storage Node:
 Provides block storage for virtual machines.
 + Cinder Volume : Supplies block storage to VMs.
