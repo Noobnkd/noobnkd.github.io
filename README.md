@@ -1,4 +1,4 @@
-# My Private Cloud Project
+<h1 align="center"> My Private Cloud Project </h1>
 <p align="center">
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/321accf7-4976-4db5-abb7-7047c999f613" />
 </p>
@@ -19,7 +19,9 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 - Integrate and operate a Block Storage system within the OpenStack environment.
 
 ## Infrastructure:
+<p align="center">
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7d89445e-f1ec-4a69-8aee-2c3d29b216ff" />
+</p>
 
 ### Controller Node:
 Main management node that controls and coordinates all OpenStack services.
@@ -51,6 +53,7 @@ Provides block storage for virtual machines.
 When a user accesses the system through Horizon, the request is sent to the Controller for authentication via Keystone. Once authentication is successful, if the request is to create a virtual machine, Nova on the Controller retrieves the required operating system image from Glance, then schedules and decides whether the VM will run on the Controller or a Compute node, along with its RAM size, number of CPUs, security groups, keypair, and network configuration, all based on the user’s request. 
 
 Then, Neutron sets up the virtual network and assigns an IP address to the VM. If the VM requires additional block storage, the request is sent to Cinder, which allocates space from the Storage node (managed by LVM) and attaches it to the VM. Throughout this process, services exchange data over the internal network to ensure performance and security, while external access is provided through the External Network using a Floating IP. This demonstrates the power of OpenStack in seamlessly integrating multiple services to deliver an efficient and secure private cloud infrastructure.
-
+<p align="center">
 <img width="600" height="650" alt="openstack_operating_mechanism" src="https://github.com/user-attachments/assets/bf6fca5d-31d1-43df-aa12-acc11f7a41d6" />
+</p>
 
