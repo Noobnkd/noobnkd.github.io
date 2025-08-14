@@ -16,17 +16,8 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 - Integrate and operate a Block Storage system within the OpenStack environment.
 
 ## Infrastructure:
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/00066472-8923-471b-a3f7-031e4887b863" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7d89445e-f1ec-4a69-8aee-2c3d29b216ff" />
 
 ## Openstack components:
-In this Private Cloud deployment, the following OpenStack services are implemented:
-+ Keystone - Identity service that manages authentication and authorization across OpenStack.
-+ Glance - Image service used to store and retrieve VM disk images.
-+ Nova - Compute service responsible for creating and managing virtual machines.
-+ Placement - Tracks resource inventories and usage for efficient scheduling of VMs.
-+ Neutron - Networking service that provides connectivity between interface devices managed by other OpenStack services.
-+ Cinder - Block Storage service that provides persistent volumes for virtual machines (using LVM backend).
-+ Horizon - Web-based dashboard for managing and monitoring cloud resources.
-+ MariaDB - Relational database for storing service configurations and operational data.
-+ RabbitMQ - Message broker for communication between services.
-+ Apache2 - Web server that serves APIs and the Horizon dashboard.
+### Controller Node:
+
