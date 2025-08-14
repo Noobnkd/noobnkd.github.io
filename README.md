@@ -1,13 +1,13 @@
 # My Private Cloud Project
 
 ## Introduction
-In the era of digital transformation, cloud computing has become a cornerstone for delivering flexible, scalable, and cost-efficient IT infrastructure. Among the various cloud deployment models, Private Cloud stands out as a solution that offers dedicated resources to a single organization. This approach provides complete control over infrastructure, greater customization, and enhanced security, making it particularly suitable for businesses with strict compliance requirements or sensitive workloads.
+In today’s digital world, cloud computing is an important way to provide IT systems that are flexible, scalable, and cost-effective. Among the different types of cloud deployment, Private Cloud is a good choice for organizations that need dedicated resources. It offers full control over the system, allows more customization, and gives stronger security. This makes it suitable for businesses with strict rules or sensitive data.
 
-Private Cloud environments can be deployed on-premises or in dedicated data centers, enabling organizations to proactively manage performance, capacity, and data governance. Unlike public cloud, where resources are shared among multiple tenants, a private setup ensures predictable performance and tailored configurations aligned with organizational policies.
+A Private Cloud can be set up in a company’s own location or in a dedicated data center. This lets the organization manage performance, storage, and data security more directly. Unlike the public cloud, where many users share the same resources, a private setup gives more stable performance and settings that match the company’s own policies.
 
-To build and operate such an environment efficiently, OpenStack has emerged as one of the most widely adopted open-source platforms. It enables the creation and management of Infrastructure-as-a-Service (IaaS) by orchestrating compute, storage, and networking resources through a unified control plane. OpenStack’s modular architecture, extensive API support, and active community development make it highly adaptable—supporting deployments that range from small laboratory setups to enterprise-scale cloud infrastructures.
+OpenStack is one of the most popular open-source platforms for building a Private Cloud. It helps manage computing, storage, and networking in one system, creating what is known as Infrastructure-as-a-Service (IaaS). OpenStack is flexible and can be used for both small test environments and large enterprise systems.
 
-With these advantages, deploying a Private Cloud using OpenStack provides both the flexibility of modern cloud computing and the security of dedicated infrastructure. This project aims to implement such a system in a controlled environment to explore its capabilities, operational workflows, and scalability potential.
+In this project, a Private Cloud will be deployed using OpenStack to test its features, see how it works in real operations, and explore how it can grow in the future.
 
 ## Objectives:
 In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a scale of 1–2 nodes, ensuring the following core capabilities:
@@ -18,7 +18,6 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 ## Infrastructure:
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7d89445e-f1ec-4a69-8aee-2c3d29b216ff" />
 
-## Openstack components:
 ### Controller Node:
 Main management node that controls and coordinates all OpenStack services.
 + Keystone : Identity and access management.
