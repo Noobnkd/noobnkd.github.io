@@ -23,33 +23,36 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7d89445e-f1ec-4a69-8aee-2c3d29b216ff" />
 </p>
 
-### Controller Node:
+### Controller Node
 Main management node that controls and coordinates all OpenStack services.
-+ Keystone : Identity and access management.
-+ Glance : Stores and provides VM images.
-+ Placement : Tracks and allocates resources (CPU, RAM, Disk).
-+ Nova Services : Includes API, scheduler, conductor, and compute service for running VMs.
-+ Neutron Services : Manages virtual networking.
-+ Horizon : Web dashboard for users and administrators.
-+ Cinder Scheduler : Assigns block storage requests.
-+ MariaDB : Database for service data.
-+ Memcached : Cache for faster performance.
-+ etcd : Stores configuration and service states.
-+ Apache2 : Web server for dashboard and APIs.
-+ RabbitMQ : Message broker for service communication.
-+ Chrony : Time synchronization between nodes.
-+ VMs : Can run virtual machines directly on the controller.
 
-### Compute Node:
+- **Keystone**: Identity and access management.
+- **Glance**: Stores and provides VM images.
+- **Placement**: Tracks and allocates resources (CPU, RAM, Disk).
+- **Nova Services**: Includes API, scheduler, conductor, and compute service for running VMs.
+- **Neutron Services**: Manages virtual networking.
+- **Horizon**: Web dashboard for users and administrators.
+- **Cinder Scheduler**: Assigns block storage requests.
+- **MariaDB**: Database for service data.
+- **Memcached**: Cache for faster performance.
+- **etcd**: Stores configuration and service states.
+- **Apache2**: Web server for dashboard and APIs.
+- **RabbitMQ**: Message broker for service communication.
+- **Chrony**: Time synchronization between nodes.
+- **VMs**: Can run virtual machines directly on the controller.
+
+### Compute Node
 Runs virtual machines and handles workloads.
-+ Nova Compute : Launches and manages VMs.
-+ Neutron Open vSwitch Agent : Connects VMs to the virtual network.
 
-### Storage Node:
+- **Nova Compute**: Launches and manages VMs.
+- **Neutron Open vSwitch Agent**: Connects VMs to the virtual network.
+
+### Storage Node
 Provides block storage for virtual machines.
-+ Cinder Volume : Supplies block storage to VMs.
-+ tgt : iSCSI target service for volume access.
-+ lvm2 (Logical Volume Manager) : Manages physical and logical volumes.
+
+- **Cinder Volume**: Supplies block storage to VMs.
+- **tgt**: iSCSI target service for volume access.
+- **lvm2 (Logical Volume Manager)**: Manages physical and logical volumes.
 
 ## Operating Mechanism
 When a user accesses the system through Horizon, the request is sent to the Controller for authentication via Keystone. Once authentication is successful, if the request is to create a virtual machine, Nova on the Controller retrieves the required operating system image from Glance, then schedules and decides whether the VM will run on the Controller or a Compute node, along with its RAM size, number of CPUs, security groups, keypair, and network configuration, all based on the user’s request. 
