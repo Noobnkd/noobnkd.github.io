@@ -20,4 +20,27 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 
 ## Openstack components:
 ### Controller Node:
-
+Main management node that controls and coordinates all OpenStack services.
++ Keystone : Identity and access management.
++ Glance : Stores and provides VM images.
++ Placement : Tracks and allocates resources (CPU, RAM, Disk).
++ Nova Services : Includes API, scheduler, conductor, and compute service for running VMs.
++ Neutron Services : Manages virtual networking.
++ Horizon : Web dashboard for users and administrators.
++ Cinder Scheduler : Assigns block storage requests.
++ MariaDB : Database for service data.
++ Memcached : Cache for faster performance.
++ etcd : Stores configuration and service states.
++ Apache2 : Web server for dashboard and APIs.
++ RabbitMQ : Message broker for service communication.
++ Chrony : Time synchronization between nodes.
++ VMs : Can run virtual machines directly on the controller.
+### Compute Node:
+Runs virtual machines and handles workloads.
++ Nova Compute : Launches and manages VMs.
++ Neutron Open vSwitch Agent : Connects VMs to the virtual network.
+### Storage Node:
+Provides block storage for virtual machines.
++ Cinder Volume : Supplies block storage to VMs.
++ tgt : iSCSI target service for volume access.
++ lvm2 (Logical Volume Manager) : Manages physical and logical volumes.
