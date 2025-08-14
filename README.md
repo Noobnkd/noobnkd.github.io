@@ -1,5 +1,7 @@
 # My Private Cloud Project
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/808c8134-b0f9-4c88-9e73-998a8ee58a32" />
+
 ## Introduction
 In today’s digital world, cloud computing is an important way to provide IT systems that are flexible, scalable, and cost-effective. Among the different types of cloud deployment, Private Cloud is a good choice for organizations that need dedicated resources. It offers full control over the system, allows more customization, and gives stronger security. This makes it suitable for businesses with strict rules or sensitive data.
 
