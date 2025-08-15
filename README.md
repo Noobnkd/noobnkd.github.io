@@ -62,4 +62,12 @@ Then, Neutron sets up the virtual network and assigns an IP address to the VM. I
 <img width="600" height="650" alt="openstack_operating_mechanism" src="https://github.com/user-attachments/assets/bf6fca5d-31d1-43df-aa12-acc11f7a41d6" />
 </p>
 
+### This is my demo
 ### [📹 Watch the demo on Google Drive](https://drive.google.com/drive/folders/1TvQmpNsVWiSDXN2HY7fO7q9rsVGQwPOO?usp=sharing)
+
+### Conclusion
+This project successfully deployed a three-node private cloud by using Openstack, with each node dedicated to computing, networking, or storage. Working on a setup like this gave me the chance to see how resources can be separated and managed efficiently. It also helped me gain a more practical view of private cloud architecture compared to just reading about it in theory.
+
+Through this process, I learned not only how to install and configure the system but also how to troubleshoot and optimize it for better performance. Seeing the three nodes work together smoothly made me appreciate the importance of good planning and clear infrastructure design. It also confirmed that separating services across nodes can improve both stability and security.
+
+Personally, I see this project as an important step toward my career goal in Cloud Computing and DevOps. In the future, I aim to expand the system with more nodes, integrate automation tools, and add monitoring solutions. This experience gives me the confidence to work on larger-scale systems and adapt to more complex real-world scenarios.
