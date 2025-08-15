@@ -4,7 +4,7 @@
 </p>
 
 ## Introduction
-In today’s digital world, cloud computing is an important way to provide IT systems that are flexible, scalable, and cost-effective. Among the different types of cloud deployment, Private Cloud is a good choice for organizations that need dedicated resources. It offers full control over the system, allows more customization, and gives stronger security. This makes it suitable for businesses with strict rules or sensitive data.
+In today’s digital world, cloud computing is an important way to provide IT systems that are flexible, scalable, and cost effective. Among the different types of cloud deployment, Private Cloud is a good choice for organizations that need dedicated resources. It offers full control over the system, allows more customization, and gives stronger security. This makes it suitable for businesses with strict rules or sensitive data.
 
 A Private Cloud can be set up in a company’s own location or in a dedicated data center. This lets the organization manage performance, storage, and data security more directly. Unlike the public cloud, where many users share the same resources, a private setup gives more stable performance and settings that match the company’s own policies.
 
@@ -18,7 +18,7 @@ In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a 
 - Create, delete, modify, and configure virtual networking.
 - Integrate and operate a Block Storage system within the OpenStack environment.
 
-## Infrastructure:
+## Infrastructure and Components:
 <p align="center">
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7d89445e-f1ec-4a69-8aee-2c3d29b216ff" />
 </p>
