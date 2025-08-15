@@ -62,3 +62,4 @@ Then, Neutron sets up the virtual network and assigns an IP address to the VM. I
 <img width="600" height="650" alt="openstack_operating_mechanism" src="https://github.com/user-attachments/assets/bf6fca5d-31d1-43df-aa12-acc11f7a41d6" />
 </p>
 
+### [📹 Watch the demo on Google Drive](https://drive.google.com/file/d/VIDEO_ID/view?usp=sharing)
