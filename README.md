@@ -8,6 +8,10 @@ In today’s digital world, cloud computing is an important way to provide IT sy
 
 A Private Cloud can be set up in a company’s own location or in a dedicated data center. This lets the organization manage performance, storage, and data security more directly. Unlike the public cloud, where many users share the same resources, a private setup gives more stable performance and settings that match the company’s own policies.
 
+<p align="center">
+<img width="465" height="328" alt="image" src="https://github.com/user-attachments/assets/e3692e86-b3bb-4d44-baa9-c2ee4a3e15fe" />
+</p>
+
 **OpenStack** is one of the most popular open-source platforms for building a Private Cloud. It helps manage computing, storage, and networking in one system, creating what is known as Infrastructure-as-a-Service (IaaS). OpenStack is flexible and can be used for both small test environments and large enterprise systems.
 
 In this project, a Private Cloud will be deployed using OpenStack to test its features, see how it works in real operations, and explore how it can grow in the future.
