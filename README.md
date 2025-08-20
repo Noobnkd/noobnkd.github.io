@@ -75,3 +75,6 @@ This project successfully deployed a three-node private cloud by using Openstack
 Through this process, I learned not only how to install and configure the system but also how to troubleshoot and optimize it for better performance. Seeing the three nodes work together smoothly made me appreciate the importance of good planning and clear infrastructure design. It also confirmed that separating services across nodes can improve both stability and security.
 
 Personally, I see this project as an important step toward my career goal in Cloud Computing and DevOps. In the future, I aim to expand the system with more nodes, integrate automation tools, and add monitoring solutions. This experience gives me the confidence to work on larger-scale systems and adapt to more complex real-world scenarios.
+
+## References
+[Server World - OpenStack Caracal on Ubuntu 22.04](https://www.server-world.info/en/note?os=Ubuntu_22.04&p=openstack_caracal&f=1)
