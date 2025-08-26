@@ -1,6 +1,6 @@
 <h1 align="center"> My Private Cloud Project </h1>
 <p align="center">
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/321accf7-4976-4db5-abb7-7047c999f613" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/321accf7-4976-4db5-abb7-7047c999f613" style="border-radius: 15px;" />
 </p>
 
 ## Introduction
