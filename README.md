@@ -63,7 +63,7 @@ When a user accesses the system through Horizon, the request is sent to the Cont
 
 Then, Neutron sets up the virtual network and assigns an IP address to the VM. If the VM requires additional block storage, the request is sent to Cinder, which allocates space from the Storage node (managed by LVM) and attaches it to the VM. Throughout this process, services exchange data over the internal network to ensure performance and security, while external access is provided through the External Network using a Floating IP. This demonstrates the power of OpenStack in seamlessly integrating multiple services to deliver an efficient and secure private cloud infrastructure.
 <p align="center">
-<img width="600" height="650" alt="openstack_operating_mechanism" src="https://github.com/user-attachments/assets/bf6fca5d-31d1-43df-aa12-acc11f7a41d6" />
+<img width="600" height="500" alt="openstack_operating_mechanism" src="https://github.com/user-attachments/assets/bf6fca5d-31d1-43df-aa12-acc11f7a41d6" />
 </p>
 
 ### This is my demo
