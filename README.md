@@ -10,7 +10,7 @@
   - [Controller Node](#controller-node)
   - [Compute Node](#compute-node)
   - [Storage Node](#storage-node)
-- [Operating Mechanism](#operating-mechanism)
+- [Operating Mechanism](#how-it-works)
 - [Demo](#this-is-my-demo)
 - [Conclusion](#conclusion)
 - [References](#references)
@@ -70,7 +70,7 @@ Provides block storage for virtual machines.
 - **tgt**: iSCSI target service for volume access.
 - **lvm2 (Logical Volume Manager)**: Manages physical and logical volumes.
 
-## Operating Mechanism
+## How it works
 When a user accesses the system through Horizon, the request is sent to the Controller for authentication via Keystone. Once authentication is successful, if the request is to create a virtual machine, Nova on the Controller retrieves the required operating system image from Glance, then schedules and decides whether the VM will run on the Controller or a Compute node, along with its RAM size, number of CPUs, security groups, keypair, and network configuration, all based on the user’s request. 
 
 Then, Neutron sets up the virtual network and assigns an IP address to the VM. If the VM requires additional block storage, the request is sent to Cinder, which allocates space from the Storage node (managed by LVM) and attaches it to the VM. Throughout this process, services exchange data over the internal network to ensure performance and security, while external access is provided through the External Network using a Floating IP. This demonstrates the power of OpenStack in seamlessly integrating multiple services to deliver an efficient and secure private cloud infrastructure.
