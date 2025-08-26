@@ -10,7 +10,7 @@
 >   - [Controller Node](#controller-node)  
 >   - [Compute Node](#compute-node)  
 >   - [Storage Node](#storage-node)  
-> - [Operating Mechanism](#operating-mechanism)  
+> - [How It Works](#how-it-works)  
 > - [Demo](#this-is-my-demo)  
 > - [Conclusion](#conclusion)  
 > - [References](#references)  
