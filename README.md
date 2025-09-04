@@ -30,7 +30,7 @@ style="border-radius: 15px;" />
 In this project, a Private Cloud will be deployed using OpenStack to test its features, see how it works in real operations, and explore how it can grow in the future.
 
 ## Objectives:
-In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a scale of 1–2 nodes, ensuring the following core capabilities:
+In this project, a Private Cloud system will be deployed on Ubuntu 22.04 with a scale of 3 nodes, ensuring the following core capabilities:
 - Manage, create, delete, and modify virtual machines (VMs).
 - Create, delete, modify, and configure virtual networking.
 - Integrate and operate a Block Storage system within the OpenStack environment.
